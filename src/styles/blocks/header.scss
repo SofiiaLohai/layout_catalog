@@ -9,9 +9,9 @@
   justify-content: space-between;
   padding: $header-padding;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-}
 
-.logo {
-  width: $logo-size;
-  height: $logo-size;
+  &__logo {
+    width: $logo-size;
+    height: $logo-size;
+  }
 }
