@@ -68,20 +68,20 @@
     justify-content: space-between;
     margin-top: $spacing-md;
     line-height: $line-height-sm;
+  }
 
-    &-label {
-      font-family: Roboto, sans-serif;
-      font-weight: $font-weight-regular;
-      font-size: $font-size-xs;
-      color: $secondary-accent;
-    }
+  &__price-label {
+    font-family: Roboto, sans-serif;
+    font-weight: $font-weight-regular;
+    font-size: $font-size-xs;
+    color: $secondary-accent;
+  }
 
-    &-value {
-      font-family: Roboto, sans-serif;
-      font-weight: $font-weight-bold;
-      font-size: $font-size-md;
-      color: $main-accent;
-    }
+  &__price-value {
+    font-family: Roboto, sans-serif;
+    font-weight: $font-weight-bold;
+    font-size: $font-size-md;
+    color: $main-accent;
   }
 
   &__button {
